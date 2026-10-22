@@ -1,0 +1,10 @@
+{
+  "name": "mcp-key2oauth-anja",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "kv_namespaces": [
+    { "binding": "OAUTH_KV", "id": "4111e584fafc40b6961535a8793ae88c" },
+    { "binding": "SLUG_KV", "id": "b28edf556ede4f6cb6bc50f3cdfeb866" }
+  ]
+}
